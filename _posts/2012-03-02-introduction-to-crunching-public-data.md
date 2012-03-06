@@ -69,7 +69,7 @@ After reading this document I'd recommend:
 
 **Required videos and readings:**
 
-* Reading: [Unit 1: Understanding, finding, and making use of public data](http://phillipadsmith.github.com/Crunching-Public-Data/pages/units/week-one/#data_vs_big_data)
+* Reading: [Unit 1: Understanding, finding, and making use of public data](http://phillipadsmith.github.com/Crunching-Public-Data/pages/units/week-one/)
 * Video: Introduction to Crunching Public Data video (Link TK) 
 
 * Video: [Introduction to Data Visualization by the @NYTgraphics team](http://youtu.be/XH-F9jV7EuE)
@@ -78,7 +78,7 @@ After reading this document I'd recommend:
 
 **Challenges to complete by April TK, 2012:**
 
-* Challenge No. 1: Introduce yourself (bonus points for using video!) (Est. 15 minutes)
+* Challenge No. 1: [Introduce yourself (bonus points for using video!)](http://phillipadsmith.github.com/Crunching-Public-Data/pages/challenges/challenge-one) (Est. 15 minutes)
 * Challenge No. 2: Propose investigations: questions that you want to answer (Est. 2 hours)
 * Challenge No. 3: List data sets that might be useful to your investigation (Est. 1 hour)
 * Challenge No. 4: Install Python (Est. 30 minutes)
