@@ -13,6 +13,6 @@ Here are some useful tools for recording a video introduction:
 * [Screenr](http://www.screenr.com/), for recording your screen without extra software
 * [Slideshare](http://www.slideshare.net/about), for uploading slides plus an audio track
 
-Use this simple exercise to get familiarized with the Code Lesson forum. 
+Use this simple exercise to get familiarized with the Code Lesson forum.a 
 
-(Deadline: Monday, April 9, 2012. 9AM UTC.)
+**(Deadline: Monday, April 9, 2012. 9AM UTC.)**

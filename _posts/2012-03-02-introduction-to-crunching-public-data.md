@@ -70,13 +70,13 @@ After reading this document I'd recommend:
 **Required videos and readings:**
 
 * Reading: [Unit 1: Understanding, finding, and making use of public data](http://phillipadsmith.github.com/Crunching-Public-Data/pages/units/week-one/)
-* Video: Introduction to Crunching Public Data video (Link TK) 
+* Lecture: Introduction to Crunching Public Data video (Link TK) 
 
-* Video: [Introduction to Data Visualization by the @NYTgraphics team](http://youtu.be/XH-F9jV7EuE)
+* Lecture: [Introduction to Data Visualization by the @NYTgraphics team](http://youtu.be/XH-F9jV7EuE)
 * Reading: [Using Overview to analyze 4500 pages of documents on security contractors in Iraq](http://overview.ap.org/blog/2012/02/private-security-contractors-in-iraq-analysis/)
 * Reading: [A computational journalism reading list](http://jonathanstray.com/a-computational-journalism-reading-list)
 
-**Challenges to complete by April TK, 2012:**
+**Challenges to complete by Monday, April 9th, 2012:**
 
 * Challenge No. 1: [Introduce yourself (bonus points for using video!)](http://phillipadsmith.github.com/Crunching-Public-Data/pages/challenges/challenge-one) (Est. 15 minutes)
 * Challenge No. 2: Propose investigations: questions that you want to answer (Est. 2 hours)
