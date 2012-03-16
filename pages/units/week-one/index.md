@@ -17,11 +17,11 @@ title: "Unit 1: Understanding, finding, and making use of public data"
 
 You may already be familiar with this term, or it may be new to you. In either case, it will be helpful for us to come to a shared understanding of what "public data" means in the context of this course. 
 
-The term public data is broadly understood to refer to information about the world around us that is made available for people to view and make use of. This could be information about our lives, or the lives of our neighbors -- such as court documents, vehicle registrations, election-related records like voting or campaign contribution history -- or knowledge about the world we live in, for example [cenus data](), environmental data like [historical weather information](), or geographic data like [bike paths]() or public parks. Typically, this information is "non-sensitive, unclassified, not copyrighted, and viewable by everyone."
+The term public data is broadly understood to refer to information about the world around us that is made available for people to view and make use of. This could be information about our lives, or the lives of our neighbors -- such as court documents, vehicle registrations, election-related records like voting or campaign contribution history -- or knowledge about the world we live in, for example [cenus data](http://www.census.gov/), environmental data like [historical weather information](http://www.climate.weatheroffice.gc.ca/climateData/canada_e.html), or geographic data like [bike paths](http://data.vancouver.ca/datacatalogue/bikeways.htm) or public parks. Typically, this information is "non-sensitive, unclassified, not copyrighted, and viewable by everyone."
 
-In contemporary terms, public data has evolved to imply something more specific: information that is collected about "the public" or "in the public good" that is published or released in its rawest form. Examples of this are abundant today, and they encompass everything from large-scale efforts by national governments to publish the data they collect, like [Data.gov](), [Data.gc.ca](), and [Data.co.uk](), all the way down to municipal initiatives, like police forces releasing their [crime report data](http://data.dc.gov/), fire departments releasing their [incident data](http://data.sfgov.org/Fire/Fire-Incidents/i69v-qbqc), and transit organizations publishing [real-time information about vehicle arrival times](http://www1.toronto.ca/wps/portal/open_data/open_data_item_details?vgnextoid=4427790e6f21d210VgnVCM1000003dd60f89RCRD&vgnextchannel=6e886aa8cc819210VgnVCM10000067d60f89RCRD).
+In contemporary terms, public data has evolved to imply something more specific: information that is collected about "the public" or "in the public good" that is published or released in its rawest form. Examples of this are abundant today, and they encompass everything from large-scale efforts by national governments to publish the data they collect, like [Data.gov](http://data.gov), [Data.gc.ca](http://data.gc.ca), and [Data.co.uk](http://data.gov.uk/), all the way down to municipal initiatives, like police forces releasing their [crime report data](http://data.dc.gov/), fire departments releasing their [incident data](http://data.sfgov.org/Fire/Fire-Incidents/i69v-qbqc), and transit organizations publishing [real-time information about vehicle arrival times](http://www1.toronto.ca/wps/portal/open_data/open_data_item_details?vgnextoid=4427790e6f21d210VgnVCM1000003dd60f89RCRD&vgnextchannel=6e886aa8cc819210VgnVCM10000067d60f89RCRD).
 
-Public data is increasingly not limited to information collected by governments and public-benefit organizations; more and more public data is also being collected and published by private companies in the course of their work. Some obvious examples would be the micro-blog service [Twitter](), the photo-sharing site [Flickr](), the location-sharing site [Foursquare](), or the influence-measuring site [Klout](). Often this data is made available to software developers and computer programmers via an Application Programming Interface, or API, and benefits the company in some way when it's used by those developers, often in novel and creative ways that the company did not consider.
+Public data is increasingly not limited to information collected by governments and public-benefit organizations; more and more public data is also being collected and published by private companies in the course of their work. Some obvious examples would be the micro-blog service [Twitter](https://dev.twitter.com/), the photo-sharing site [Flickr](http://www.flickr.com/services/api/), the location-sharing site [Foursquare](developer.foursquare.com), or the influence-measuring site [Klout](http://klout.com/s/developers/home). Often this data is made available to software developers and computer programmers via an Application Programming Interface, or API, and benefits the company in some way when it's used by those developers, often in novel and creative ways that the company did not consider.
 
 However, unlike these technology-centric companies that are providing data in the form of APIs that can be consumed easily by computer programs, much of the public data that is published by governments and their agencies is not provided in a format that is easy to explore or re-use. For example, until very recently -- the last two or three years -- a significant amount of public data was published as HTML pages, or -- worst yet -- put online as Microsoft Word or Excel documents, or as Adobe PDF documents. To many, the value of public data is greatly reduced -- or, at least, inhibited -- when the information is published in formats that are considered to be inaccessible. Further, a significant percentage of publicly available data provided by governments is still published in a summary, aggregate, or sanitized form, which can limit its usefulness if the line of inquiry requires the original documents or raw numbers.
 
@@ -29,8 +29,10 @@ So, while there have been huge advances in the world of public data over the las
 
 **Public data has the positive potential to open our eyes to the world around us, and the negative potential to give those who already have societal advantages the resources to outsmart those that are less savvy.**
 
-FOIA / ATIP 
-Public data that isn't published data.
+TK ... still need to touch on:
+
+* FOIA / ATIP 
+* Public data that isn't published data.
 
 ## Public data vs. Open Data
 
@@ -46,14 +48,6 @@ To provide a concrete example, some of the "public data" in countries like Austr
 
 Either way, it will be important for you to consider the license of the data that you encounter during this course, and to be able to make the distinction between open data and public data. 
 
-<div class="alert alert-info">
-
-<p><i class="icon-info-sign">&nbsp;</i>&nbsp;&nbsp;
-The open-data movement is often considered to be part of a larger "[open everything]()" movement, which has roots in the [Free Software movement]() that started in the 1960s. To many, the crux of the movement is a question of licensing and freedoms -- and sometimes the format of the data -- not necessarily the push to open the data in the first place. We won't be delving into this debate during the course, but we will be embracing the spirit of these movements by focusing on free software for our exercises.
-</p>
-</div>
-
-
 ## Data vs. Big Data
 
 While we're exploring what public data is and isn't, let's add another term to the mix: [big data](https://en.wikipedia.org/wiki/Big_data).
@@ -62,15 +56,15 @@ While we're exploring what public data is and isn't, let's add another term to t
 
 Public data is not necessarily big data, but -- to an extent -- the class of public data that falls toward the big data end of the spectrum is what we're going to focus on in this course because of the inherent challenges that one encounters when working with it, and the learning opportunities that those challenges provide.
 
-So, what exactly is big data? Well, somewhat obviously, big data is by definition **big**. Typically, this term refers to datasets so large that it is difficult, if not impossible, to work with them using standard data-processing tools, like traditional database tools or statistics packages. In practice, this term is used for data sets that are gigabytes or more in size, or data sets that update extremely rapidly like the [Twitter fire hose](). We won't be working with this kind of big data during the course -- as the challenges it presents are a bit too unique to be broadly applicable to your day-to-day work -- but we will look at data sets that are considered large, and I'll point you to some resources for making the jump to really-big data.
+So, what exactly is big data? Well, somewhat obviously, big data is by definition **big**. Typically, this term refers to datasets so large that it is difficult, if not impossible, to work with them using standard data-processing tools, like traditional database tools or statistics packages. In practice, this term is used for data sets that are gigabytes or more in size, or data sets that update extremely rapidly like the [Twitter fire hose](https://dev.twitter.com/docs/streaming-api). We won't be working with this kind of big data during the course -- as the challenges it presents are a bit too unique to be broadly applicable to your day-to-day work -- but we will look at data sets that are considered large, and I'll point you to some resources for making the jump to really-big data.
 
 For the purposes of this course, we're going to define big data (or big-ish data) as the moment when spreadsheets start to fail us. 
 
-Until quite recently, much of the spreadsheet software available to us -- while an indespensible tool of the data cruncher! -- was limited to about 65,000 rows of data. As of the time of this writing, newer spreadsheet software like [Google Spreadsheets]() is limited to 400,000 cells (that would be roughly 20,000 rows of data if you had 20 columns in your sheet) or 20MB of data, and other tools like Google Fusion Tables are limited to roughly 100MB of data per table. At first these may not seem like limits to worry about, but -- in practice -- it is not uncommon to run up against these limits when dealing with real-world data. 
+Until quite recently, much of the spreadsheet software available to us -- while an indispensable tool of the data cruncher! -- was limited to about 65,000 rows of data. As of the time of this writing, newer spreadsheet software like [Google Spreadsheets](https://spreadsheets.google.com/) is limited to 400,000 cells (that would be roughly 20,000 rows of data if you had 20 columns in your sheet) or 20MB of data, and other tools like Google Fusion Tables are limited to roughly 100MB of data per table. At first these may not seem like limits to worry about, but -- in practice -- it is not uncommon to run up against these limits when dealing with real-world data. 
 
 Newer versions of Microsoft Excel have increased the row limit to 1,000,000, as well as contemporary versions the popular free software spreadsheet option -- [Open Office Calc](http://en.wikipedia.org/wiki/OpenOffice.org_Calc) -- which have reportedly increased the limit to roughly 1,000,000 rows also. Nonetheless, modern-day data dumps by organizations like Wikileaks can start to push our existing tools to the limits. Take for example the [Afghan War Diary](http://www.wikileaks.org/wiki/Afghan_War_Diary,_2004-2010) at almost 400,000 rows of data, or the recently released [Stratfor data](http://www.washingtonpost.com/business/technology/wikileaks-publishes-e-mails-from-stratfor-intelligence-firm/2012/02/27/gIQA3rrndR_story.html) that is reported to be between two and five million e-mail messages.
 
-As Tim O'Reily recently said "TK," we're swimming in data -- vast, vast amounts of data -- and that reality is only going to increase.
+As Tim O'Reilly recently said "[Data Scientist is now the hottest job title in Silicon Valley](http://www.guardian.co.uk/news/datablog/2012/mar/02/data-scientist)," we're swimming in data -- vast, vast amounts of data -- and that reality is only going to increase.
 
 ## What data _can_ and _cannot_ help you with
 
@@ -80,7 +74,7 @@ The answer lies somewhere between investigation and exploration, between specifi
 
 > Instead of just saying "here is some data" figure out how to tell a story with it -- Amanda Cox, New York Times Graphics Editor, [@NYTGraphics](http://twitter.com/nytgraphics)
 
-In [Amanda's lecture]() (you watched it, right?), she describes four opportunities for using data to:
+In [Amanda's lecture](http://learn.codelesson.com/mod/resource/view.php?id=4483) (you watched it, right?), she describes four opportunities for using data to:
 
 * Reveal patterns
 * Provide context
@@ -124,8 +118,12 @@ I hope that these example provide some inspiration for your own exploration that
 * [Making Water a Matter of Race](www.time.com/time/nation/article/0,8599,1822455,00.html)
 * [The Revolution Will Be Mapped](http://www.miller-mccune.com/culture/the-revolution-will-be-mapped-7130/)
 
-### Case 3 TK (network analysis)
+### THE BUSH MONEY MACHINE : Fundraising's Rewards (network analysis)
 
+> When four longtime supporters of George W. Bush in 1998 developed a name and a structure for the elite cadre that the then-Texas governor would rely on in his campaign for president, the goal was simple. They wanted to escape the restraints of the public financing system that Congress had hoped would mitigate the influence of money in electing a president. Their way to do it was to create a network of people who could get at least 100 friends, associates or employees to give the maximum individual donation allowed by law to a presidential candidate: $1,000.
+
+[THE BUSH MONEY MACHINE : Fundraising's Rewards](http://www.washingtonpost.com/wp-dyn/articles/A29142-2004May15.html)
+[Spheres of Influence (PDF that accompanies the article)](http://www.washingtonpost.com/wp-srv/politics/pioneers/network_graphic.pdf)
 
 ## What to keep in mind as you start your investigation
 
@@ -143,7 +141,7 @@ To get started with your search, you might want to look for data that is publish
 
 * State/Provincial/Regional: Some data sets are going to be under the jurisdiction of state or provincial agencies. In Canada, for instance, hospital and health data is collected at the provincial level. In the US, state-level agencies are responsible for public health, education, employment and more.
 
-* National: National open data initiatives in Canada, the US, and the UK are good examples of efforts that some countries are putting into publishing the data they collect. These datasets can provide a good overview/aggregate look at national statistics, but often lack a level of detail to be genuinely interesting on their own. That said, national agencies like [Statistics Canada]() or the [U.S. Census Bureau]() can help to provide genuine insight into a country's "identity." National agencies are also typically responsible for [geodata](), which can be an important piece of putting your data "on the map" so to speak. 
+* National: National open data initiatives in Canada, the US, and the UK are good examples of efforts that some countries are putting into publishing the data they collect. These datasets can provide a good overview/aggregate look at national statistics, but often lack a level of detail to be genuinely interesting on their own. That said, national agencies like [Statistics Canada](http://www.statcan.gc.ca/) or the [U.S. Census Bureau](http://www.census.gov/) can help to provide genuine insight into a country's "identity." National agencies are also typically responsible for geographic data, which can be an important piece of putting your data "on the map" so to speak. 
 
 * Global: There are also a handful of quasi-government bodies and international NGOs that publish data that is aggregated at a global level. Some examples would be the [World Bank](http://data.worldbank.org/), [United Nations](http://data.un.org), and the [World Health Organization](http://www.who.int/research/en/).
 
@@ -153,7 +151,7 @@ Here's a [growing list of starting points for public data / open data investigat
 
 ## Where to go from here
 
-* Challenge No. 2: Propose investigations: questions that you want to answer (Est. 2 hours)
-* Challenge No. 3: List data sets that might be useful to your investigation (Est. 1 hour)
+* Challenge No. 2: [Propose investigations: questions that you want to answer (Est. 2 hours)](http://learn.codelesson.com/mod/resource/view.php?id=4402)
+* Challenge No. 3: [List data sets that might be useful to your investigation (Est. 1 hour)](http://learn.codelesson.com/mod/resource/view.php?id=4416)
 
 

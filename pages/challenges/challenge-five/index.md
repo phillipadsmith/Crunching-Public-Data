@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Challenge No. 5 (optional): Try exercises 1, 2, and 3 from the _Learning Python the hard way_ book."
+title: "Challenge No. 5 (optional): Try exercises 1, 2, and 3 from the Learning Python the hard way book."
 ---
 {% include JB/setup %}
 

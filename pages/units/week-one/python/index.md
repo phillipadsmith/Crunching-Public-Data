@@ -35,5 +35,5 @@ In each case, I'll provide an alternative to using Python, if you feel that it's
 
 ## Where to go next
 
-* [Challenge No. 4: Install Python (Est. 30 minutes)]()
-* [Challenge No. 5 (optional): Try exercises TK, TK, and TK from the _Learning Python the hard way_ book. (Est. 1 hour)]()
+* [Challenge No. 4: Install Python (Est. 30 minutes)](http://phillipadsmith.github.com/Crunching-Public-Data//pages/challenges/challenge-four/)
+* [Challenge No. 5 (optional): Try exercises 1, 2, and 3 from the _Learning Python the hard way_ book. (Est. 1 hour)](http://phillipadsmith.github.com/Crunching-Public-Data//pages/challenges/challenge-five/)

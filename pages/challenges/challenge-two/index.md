@@ -8,7 +8,7 @@ The first step in successfully crunching public data is brainstorming a list of 
 
 Please set aside 1-2 hours for this exercise. I'd like each participant to sketch out at least three ideas or possible investigations. Each idea should be described on two sentences or less. You are welcome to propose as many ideas as you can come up with.
 
-The goal of this exercise is for you to practice some [ideation]() and [thinking out loud]() and to get some quick feedback from your co-participants and the instructor. 
+The goal of this exercise is for you to practice some ideation and "thinking out loud" and to get some quick feedback from your co-participants and the instructor. 
 
 From here, you'll likely refine one or two ideas to the point where they are clear, simple, and achievable enough that you can work on these one or two investigations over the next four weeks.
 
